@@ -238,4 +238,4 @@ var cards =[
     "Person you could beat up,Person who'd beat you up",
     "Underrated game,Overrated game",
     "You want your parents to watch you do it,You don't want your parents to watch you do it",
-    "Good people,Evil people"];
+    "Evil people,Good people"];
