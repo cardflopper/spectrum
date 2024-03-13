@@ -14,8 +14,8 @@ function drawCard(){
 
     var blocks = document.getElementsByClassName("block");
 
-    blocks[0].innerText = card[0];
-    blocks[1].innerText = card[1];
+    blocks[1].innerText = card[0];
+    blocks[0].innerText = card[1];
 }
 
 newRound();
