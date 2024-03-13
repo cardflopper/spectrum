@@ -1,7 +1,10 @@
 function newRound(){
     drawCard();
     var t = document.getElementById("theTarget");
+    t.classList = "";
     t.innerText = randomInt(100)+1;
+    var e = document.getElementsByClassName("eye");
+    e[0].classList.remove("green");
 }
 
 function drawCard(){
@@ -17,3 +20,11 @@ function drawCard(){
 
 newRound();
 
+function toggleHide(){
+    var t = document.getElementById("theTarget");
+    t.classList.toggle("hidden");
+    var e = document.getElementsByClassName("eye");
+    e[0].classList.toggle("green");
+
+    
+}
